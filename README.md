@@ -19,9 +19,16 @@ IDE: Arduino IDE 2.0.4
 
 Platform: ESP32-S3-Korvo (URL: https://aws.amazon.com/blogs/compute/building-an-aws-iot-core-device-using-aws-serverless-and-an-esp32/)
 
-Publish topics: "esp32/cam_0", "esp32/mic_0"
-
-Subscribe topic: "esp32/sub"
+Function: Capture images and audio from on-board camera sensor and microphone -> Publish the images and audio to the AWS IoT Core
 
 Setup tutorial: (URL: https://aws.amazon.com/blogs/compute/building-an-aws-iot-core-device-using-aws-serverless-and-an-esp32/)
 
+<aws_lambda>
+
+IDE: Python 3.7
+
+Platform: AWS Lambda
+
+Function: Subscribe the images from the AWS IoT Core and convert them into video files and store them in the S3 bucket "esp32s3s3bucket"
+
+Setup tutorial: (URL: https://devopstar.com/2020/05/16/aws-iot-esp32-cam-setup/)
