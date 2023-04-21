@@ -23,7 +23,10 @@ Function: Capture images and audio from on-board camera sensor and microphone ->
 
 Setup tutorial: (URL: https://aws.amazon.com/blogs/compute/building-an-aws-iot-core-device-using-aws-serverless-and-an-esp32/)
 
-Arduino Library Installation: (https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html)
+Arduino Library Installation: 
+
+[ESP32-S3 Board] (https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html)
+[ESP32-S3_Korvo Audio Kit] (https://github.com/pschatzmann/arduino-audiokit)
 
 <aws_lambda>
 
